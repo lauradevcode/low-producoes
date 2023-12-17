@@ -1,0 +1,132 @@
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --roxo-principal: #810CD2;
+    --branco-secundario: #ffffff;
+    --background-dark: #232323;
+    --fonte-principal: 'Kanit', sans-serif;
+}
+
+body {
+    background-image: url(../midias-site/MENU-GALERIA/28.png);
+}
+
+nav {
+    background: transparent;
+    background-color: var(--background-dark);
+}
+
+nav ul>li>a {
+    color: var(--branco-secundario) !important;
+    font-family: 'Kanit', sans-serif;
+    font-size: 19px !important;
+    letter-spacing: 0.9px;
+}
+
+nav ul>li>.nav-link:hover {
+    color: var(--roxo-principal) !important;
+}
+
+.secao1 {
+    padding: 5%;
+    margin-top: 10%;
+}
+
+h1 {
+    color: var(--branco-secundario);
+    font-size: 4rem;
+}
+
+.texto-sublinhado {
+    text-decoration: underline;
+}
+
+.texto-colorido {
+    color: var(--roxo-principal);
+}
+
+.btn {
+    background-color: var(--background-dark);
+    color: var(--branco-secundario);
+    border-color: var(--roxo-principal);
+    padding: 12px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px !important;
+}
+
+.btn:hover {
+    background-color: var(--roxo-principal);
+    color: var(--branco-secundario);
+    border-color: var(--roxo-principal);
+
+}
+
+.secao2 {
+    margin-top: 10%;
+}
+
+
+.txt1-secao2 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 40px !important;
+}
+
+.txt2-secao2 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 40px !important;
+}
+
+.imagem-secao2 {
+    width: 75%;
+}
+
+.texto-secao2 {
+    width: 50%;
+    margin-top: 1%;
+}
+
+.titulo-h2 {
+    color: var(--branco-secundario);
+    margin-top: 4%;
+    font-family: var(--fonte-principal);
+    font-size: 50px !important;
+    font-weight: 200;
+}
+
+.txt-secao3 {
+    color: var(--roxo-principal)!important;
+    font-size: 50px;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    padding: 120px!important;
+    
+}
+.sub-txt-secao3 {
+    font-family: var(--fonte-principal);
+    font-weight: 200;
+    font-size: 16px;
+    color: var(--branco-secundario);
+    
+}
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+}
+
+.rodap1 {
+    padding: 6%;
+    color: var(--branco-secundario);
+}
+
+.rodap2 {
+    padding: 15%;
+    color: var(--branco-secundario);
+}
