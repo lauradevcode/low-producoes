@@ -21,7 +21,7 @@
 
 nav {
     background: transparent;
-    opacity: var(--roxo-principal);
+   
     
 }
 
@@ -9729,7 +9729,9 @@ html.tablet .ui-to-top {
 */
 .rd-navbar-static {
 	display: block;
-	position: relative;
+	position: absolute;
+    z-index: 10;
+    width: 100%;
 }
 
 .rd-navbar-static .rd-nav-item {
