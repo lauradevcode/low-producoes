@@ -70,9 +70,6 @@ h1 {
 
 }
 
-.secao2 {
-    margin-top: 10%;
-}
 
 
 .txt1-secao2 {
@@ -11667,7 +11664,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .swiper-wrapper {
-	position: relative;
+	position: absolute;
 	z-index: 1;
 	display: flex;
 	align-self: stretch;
@@ -13481,9 +13478,7 @@ button.swiper-pagination-bullet {
 	}
 }
 
-.nav {
-	display: block;
-}
+
 
 .tabs-custom {
 	text-align: left;
