@@ -35,7 +35,10 @@ nav ul>li>a {
 nav ul>li>.nav-link:hover {
     color: var(--roxo-principal) !important;
 }
+wix-video {
 
+	height: 300px;
+}
 .secao1 {
     padding: 5%;
     margin-top: 10%;
@@ -51,7 +54,7 @@ h1 {
 }
 
 .texto-colorido {
-    color: var(--roxo-principal);
+    color: #889CE7;
 }
 
 .btn {
@@ -98,13 +101,26 @@ h1 {
     font-size: 50px !important;
     font-weight: 200;
 }
+.icons1 {
+	width: 50%;
 
+}
+
+.borda {
+	width: 220px;
+    height: 5px;
+	background-color: rgb(63,67,73);
+	border-radius: 7%!important;
+	min-height: 2px;
+	margin-left: 25%;
+	margin-top: 6%;
+}
 .txt-secao3 {
     color: #2F54DD!important;
     font-size: 50px;
     font-family: var(--fonte-principal);
     font-weight: 400;
-    padding: 120px!important;
+    /* padding: 120px!important; */
     
 }
 .sub-txt-secao3 {
@@ -1908,7 +1924,7 @@ html .list-inline-md > * {
 */
 img {
 	display: inline-block;
-	width: 100%;
+	/* width: 100%; */
 	height: auto;
 	
 }
@@ -9399,7 +9415,7 @@ html.tablet .ui-to-top {
 
 .rd-navbar {
 	display: none;
-	background: #fff;
+	/* background: #fff; nav aqui*/
 }
 
 .rd-navbar-outer {
@@ -9729,6 +9745,8 @@ html.tablet .ui-to-top {
 	position: absolute;
     z-index: 10;
     width: 100%;
+	padding-top: 0%;
+	
 }
 
 .rd-navbar-static .rd-nav-item {

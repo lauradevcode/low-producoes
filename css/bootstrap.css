@@ -183,6 +183,7 @@ svg {
 	vertical-align: middle;
 	width: 10%;
 	height: auto;
+	
 }
 
 table {
@@ -555,6 +556,7 @@ pre code {
 	padding-left: 15px;
 	margin-right: auto;
 	margin-left: auto;
+	/* align-items: end; */
 }
 
 .row {
@@ -3277,8 +3279,6 @@ input[type="button"].btn-block {
 
 .navbar-brand {
 	display: inline-block;
-	padding-top: 0.3125rem;
-	padding-bottom: 0.3125rem;
 	margin-right: 1rem;
 	font-size: 1.25rem;
 	line-height: inherit;
@@ -6382,9 +6382,7 @@ button.close {
 .p-2 {
 	padding: 1.2rem !important;
 }
-.icons1 {
-	width: 50%;
-}
+
 
 
 .pt-2,
