@@ -952,7 +952,7 @@ h1 {
     right: 10px;
     width: 60px;
     height: 60px;
-    background: url(/midias-site/icon/whatsapp.webp) center/contain no-repeat;
+    background: url(../midias-site/icon/whatsapp.webp) center/contain no-repeat;
     border: none;
     border-radius: 50%;
     color: #fff;
