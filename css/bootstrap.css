@@ -6380,13 +6380,12 @@ button.close {
 }
 
 .p-2 {
-	padding: 0.5rem !important;
+	padding: 1.2rem !important;
+}
+.icons1 {
+	width: 50%;
 }
 
-.svg2 {
-	width: 40%;
-	height: 40%;
-}
 
 .pt-2,
 .py-2 {

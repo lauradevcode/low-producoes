@@ -947,9 +947,9 @@ h1 {
 }
 
 .whatsapp-btn {
-    position: fixed;
-    bottom: 20px;
-    right: 40px;
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
     width: 60px;
     height: 60px;
     background: url(/midias-site/icon/whatsapp.webp) center/contain no-repeat;

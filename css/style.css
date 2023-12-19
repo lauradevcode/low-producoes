@@ -100,7 +100,7 @@ h1 {
 }
 
 .txt-secao3 {
-    color: var(--roxo-principal)!important;
+    color: #2F54DD!important;
     font-size: 50px;
     font-family: var(--fonte-principal);
     font-weight: 400;
