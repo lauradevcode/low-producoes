@@ -51,6 +51,7 @@ h1 {
 
 .texto-sublinhado {
     text-decoration: underline;
+	color: var(--branco-secundario);		
 }
 
 .texto-colorido {
@@ -276,7 +277,7 @@ body {
 h1, h2, h3, h4, h5, h6, [class^='heading-'] {
 	margin-top: 5%;
 	margin-bottom: 0;
-	color: #151515;
+	color: var(--branco-secundario);
 }
 
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, [class^='heading-'] a:hover {
