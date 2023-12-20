@@ -7297,6 +7297,12 @@ html:not(.tablet):not(.mobile) .profile-minimal-caption {
 	.jumbotron-classic-content {
 		padding: 60px 0 80px  0;
 	}
+
+	.rd-navbar-fixed {
+		background-color: #0056b3;
+		/* emanuel aqui o do navbar */
+	}
+
 }
 
 @media (max-width: 1199.98px) {
@@ -9300,7 +9306,7 @@ html:not(.lt-ie10) .not-animated {
 *
 * ToTop
 */
-/* .ui-to-top {
+.ui-to-top {
 	position: fixed;
 	right: 15px;
 	bottom: 15px;
@@ -9309,13 +9315,13 @@ html:not(.lt-ie10) .not-animated {
 	height: 48px;
 	border-radius: 6px;
 	color: #fff;
-	background: #dc0000;
+	background: #8b8b8b;
 	overflow: hidden;
 	text-align: center;
 	text-decoration: none;
 	transition: transform 0.45s ease-in-out, background 0.3s cubic-bezier(0.2, 1, 0.3, 1);
 	transform: translate3d(0, 100px, 0);
-} */
+}
 
 .ui-to-top::before, .ui-to-top::after {
 	content: '\f239';
@@ -9351,7 +9357,7 @@ html:not(.lt-ie10) .not-animated {
 
 .ui-to-top:hover {
 	color: #fff;
-	background: #4854ed;
+	background: #889CE7;
 	text-decoration: none;
 }
 
