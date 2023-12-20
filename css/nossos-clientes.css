@@ -16,7 +16,7 @@
 }
 
 body {
-    background-image: url(../midias-site/MENU-GALERIA/28.png);
+    background-color: #181717!important;
 }
 
 nav {
@@ -36,7 +36,7 @@ nav ul>li>.nav-link:hover {
 }
 
 .quadrado-principal {
-    margin: 1%;
+    margin: 2%;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -44,15 +44,16 @@ nav ul>li>.nav-link:hover {
 .item {
     border: 1px solid rgba(199, 199, 199, 0.39);
     width: 100%;
-    padding: 2%;
+    padding: 1%;
 }
 .imagens-clientes {
     width: 100%;
     height: 100%;
 }
-.container-fluid {
+.container {
     display: flex;
     flex-direction: row;
+    /* padding: 10px; */
 }
 
 .rodap1 {
