@@ -181,7 +181,7 @@
  svg {
 	 overflow: hidden;
 	 vertical-align: middle;
-	 width: 10%;
+	 width: 20%;
 	 height: auto;
 	 
  }
@@ -3390,6 +3390,8 @@
 		 padding-right: 0;
 		 padding-left: 0;
 	 }
+
+
  }
  
  @media (min-width: 768px) {
@@ -6387,9 +6389,9 @@
 	 padding-left: 0.25rem !important;
  }
  
- .p-2 {
+ /* .p-2 {
 	 padding: 1.2rem !important;
- }
+ } */
  
  
  
