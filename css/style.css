@@ -52,24 +52,34 @@ h1 {
     color: #889CE7;
 }
 
-.btn {
+.falaconosco1 {
     background-color: var(--background-dark);
-    color: var(--branco-secundario);
-    border-color: var(--roxo-principal);
-    padding: 12px;
+    color: var(--branco-secundario);	
+    padding: 13px;
     font-family: 'Kanit', sans-serif;
-    font-size: 16px !important;
+    font-size: 17px !important;
+	border-color: #889de79f;
+	font-weight: 300;
 }
-
-.btn:hover {
-    background-color: var(--roxo-principal);
-    color: var(--branco-secundario);
-    border-color: var(--roxo-principal);
-
+.falaconosco1:hover {
+    background-color:#889CE7;
+	transition: all 0.3s ease 0s;	
+	transition-delay: 0.3s;
+	color: white!important;
 }
-
-
-
+.falaconosco2 {
+	text-decoration: none!important;
+    background-color: #889CE7;	
+    padding: 13px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 17px !important;
+	font-weight: 300;
+}
+.faleconosco2:hover{
+	text-decoration: none!important;
+	transition: all 0.3s ease 0s!important;	
+	transition-delay: 0.3s!important;
+}
 .txt1-secao2 {
     font-family: 'Kanit', sans-serif;
     font-size: 40px !important;
@@ -722,9 +732,9 @@ a, a:focus, a:active, a:hover {
 	text-decoration: none;
 }
 
-a, a:focus, a:active {
-	color: #dc0000;
-}
+/* a, a:focus, a:active {
+	/* color: #dc0000; */
+} */
 
 a:hover {
 	color: #0056b3;

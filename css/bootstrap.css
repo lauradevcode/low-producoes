@@ -129,7 +129,7 @@
  }
  
  a {
-	 color: #dc0000;
+	 /* color: #dc0000; */
 	 text-decoration: none;
 	 background-color: transparent;
 	 -webkit-text-decoration-skip: objects;
