@@ -19,12 +19,6 @@
     background-image: url(../midias-site/MENU-GALERIA/28.png);
 } */
 
-nav {
-    background: transparent;
-   
-    
-}
-
 nav ul>li>a {
     color: var(--branco-secundario) !important;
     font-family: 'Kanit', sans-serif;
