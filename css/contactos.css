@@ -1,0 +1,49 @@
+:root{
+    --color_0: #8ac8f1;
+    --color_12: 27,28,30;
+
+.talking-about-us{
+    padding: 8rem;
+}
+
+.background-talking{
+    background-color: rgba(var(--color_12), 0.8);
+}
+
+.title-talking-about-us{
+    font-size: 64px;
+    text-align: left;
+    margin-left: 14.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.space-box-talking{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.formulario{
+    padding-bottom: 10rem;
+}
+
+.formulario label{
+    margin-right: 9rem;
+    padding-bottom: 0.3rem;
+    color: #3f3f3f;
+}
+
+.formulario input{
+    background-color: #181717;
+    border: solid 1px #3f3f3f;
+}
+
+
+.formulario textarea{
+    background-color: #181717;
+    border: solid 1px #3f3f3f;
+}
+
+.button-enviar{
+    padding-top: 1rem;
+    margin-left: 74.2rem;
+}
