@@ -54,7 +54,7 @@ h1 {
 
 .falaconosco1 {
     background-color: var(--background-dark);
-    color: var(--branco-secundario);	
+    /* color: var(--branco-secundario);	 */
     padding: 13px;
     font-family: 'Kanit', sans-serif;
     font-size: 17px !important;
@@ -65,7 +65,11 @@ h1 {
     background-color:#889CE7;
 	transition: all 0.3s ease 0s;	
 	transition-delay: 0.3s;
-	color: rgb(3, 3, 3)!important;
+	color: #232323!important;
+}
+
+.a-efeito:hover {
+	color: #232323!important;
 }
 .falaconosco2 {
 	text-decoration: none!important;
