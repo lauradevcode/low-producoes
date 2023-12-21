@@ -28,15 +28,16 @@ nav ul>li>a {
     letter-spacing: 0.9px;
 }
 
+
 nav ul>li>.nav-link:hover {
     color: var(--roxo-principal) !important;
 }
+
 
 .container-fluid {
     display: flex;
     flex-direction: row;
 }
-
 .rodap1 {
     padding: 6%;
     color: var(--branco-secundario);

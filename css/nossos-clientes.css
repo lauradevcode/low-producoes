@@ -55,7 +55,6 @@ nav ul>li>.nav-link:hover {
     flex-direction: row;
     /* padding: 1px; */
 }
-
 .rodap1 {
     padding: 6%;
     color: var(--branco-secundario);
