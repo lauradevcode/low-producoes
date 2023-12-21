@@ -3771,9 +3771,11 @@
  }
  
  .card-img-top {
-	 width: 100%;
-	 border-top-left-radius: calc(0.25rem - 1px);
-	 border-top-right-radius: calc(0.25rem - 1px);
+	 width: 90px;
+	 padding-top: 10px;
+	 padding-left: 15px;
+	 margin-top: 10px;
+	 
  }
  
  .card-img-bottom {

@@ -47,3 +47,7 @@ nav ul>li>.nav-link:hover {
     padding: 15%;
     color: var(--branco-secundario);
 }
+
+.img1{
+    background-image: url("../midias-site/MENU-SOBRE/fundo.webp");
+}
