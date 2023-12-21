@@ -99,11 +99,16 @@ h1 {
     margin-top: 1%;
 }
 
+@media (max-width: 768px) {
+	.texto-secao2 {
+			width: 70%;
+	}
+}
+
 .titulo-h2 {
     color: var(--branco-secundario);
     margin-top: 4%;
     font-family: var(--fonte-principal);
-    font-size: 50px !important;
     font-weight: 200;
 }
 .icons1 {
@@ -133,7 +138,6 @@ h1 {
     font-weight: 200;
     font-size: 16px;
     color: var(--branco-secundario);
-    
 }
 .container-fluid {
     display: flex;
@@ -756,6 +760,10 @@ a[href*='tel'], a[href*='mailto'] {
 	color: #dc0000;
 }
 
+.navbar-light .navbar-toggler {
+	background-color: #989696 !important;
+}
+
 .context-dark .link-default, .bg-gray-700 .link-default, .bg-gray-800 .link-default, .bg-primary .link-default, .bg-primary-darker .link-default {
 	color: #aeb1be;
 }
@@ -1119,6 +1127,18 @@ a[href*='tel'], a[href*='mailto'] {
 	}
 }
 
+
+.navbar-custom {
+	background-color: transparent !important;
+	transition: background-color 0.3s ease-in-out;
+	z-index: 1000; /* Para garantir que o menu fique acima de outros elementos */
+}
+
+.navbar-custom.scrolled {
+	background-color: #121214 !important;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adicionando uma sombra para dar profundidade */
+}
+
 div.box-cta-1 {
 	display: inline-table;
 	text-align: center;
@@ -1299,6 +1319,8 @@ p.box-indigo-subtitle .box-indigo-mark {
 .box-promo .heading-6 {
 	color: #ff747b;
 }
+
+
 
 .box-promo:hover {
 	transform: translate(0, -5px);

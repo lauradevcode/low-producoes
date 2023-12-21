@@ -1,49 +1,51 @@
-:root{
-    --color_0: #8ac8f1;
-    --color_12: 27,28,30;
+:root {
+  --color_0: #8ac8f1;
+  --color_12: 27, 28, 30;
 
-.talking-about-us{
+  .talking-about-us {
     padding: 8rem;
-}
+  }
 
-.background-talking{
+  .background-talking {
     background-color: rgba(var(--color_12), 0.8);
-}
+  }
 
-.title-talking-about-us{
-    font-size: 64px;
+  .title-talking-about-us {
+    font-size: 50px;
     text-align: left;
-    margin-left: 14.5rem;
-    padding-bottom: 0.5rem;
-}
+    padding: 0 4rem;
+    padding-bottom: 1rem;
+  }
 
-.space-box-talking{
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-}
+  .space-box-talking {
+    padding-top: 2rem;
+  }
 
-.formulario{
-    padding-bottom: 10rem;
-}
+  .formulario {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column !important;
+    gap: 1rem;
+    margin: 0 auto;
+  }
 
-.formulario label{
-    margin-right: 9rem;
-    padding-bottom: 0.3rem;
+  .formulario label {
     color: #3f3f3f;
-}
+  }
 
-.formulario input{
+  .formulario input {
     background-color: #181717;
-    border: solid 1px #3f3f3f;
-}
+    border: solid 0.5px #3f3f3f;
+    width: 100%;
+    padding: 8px;
+    color: #f1f1f1;
+  }
 
-
-.formulario textarea{
+  .formulario textarea {
     background-color: #181717;
-    border: solid 1px #3f3f3f;
-}
-
-.button-enviar{
-    padding-top: 1rem;
-    margin-left: 74.2rem;
+    border: solid 0.5px #3f3f3f;
+    width: 100%;
+    padding: 8px;
+    color: #f1f1f1;
+  }
 }
