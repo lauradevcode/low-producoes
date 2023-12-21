@@ -65,7 +65,7 @@ h1 {
     background-color:#889CE7;
 	transition: all 0.3s ease 0s;	
 	transition-delay: 0.3s;
-	color: white!important;
+	color: rgb(3, 3, 3)!important;
 }
 .falaconosco2 {
 	text-decoration: none!important;
