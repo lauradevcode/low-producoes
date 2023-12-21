@@ -52,3 +52,9 @@ nav ul>li>.nav-link:hover {
     background-image: url("../midias-site/MENU-SOBRE/fundo.webp");
     height: 700px;
 }
+
+.txt{
+    text-align: justify;
+    width: 300px;
+    align-items: center;
+}
