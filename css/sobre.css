@@ -41,12 +41,14 @@ nav ul>li>.nav-link:hover {
     flex-direction: row;
 }
 
-.rodap1 {
+.rodap3 {
     padding: 6%;
+    background-color: #810CD2;
     color: var(--branco-secundario);
 }
 
-.rodap2 {
-    padding: 15%;
+.rodap4 {
+    background-color: #ec0606;
     color: var(--branco-secundario);
+    padding: 15%;
 }
