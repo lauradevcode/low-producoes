@@ -38,3 +38,12 @@ nav ul>li>.nav-link:hover {
     display: flex;
     flex-direction: row;
 }
+.rodap1 {
+    padding: 6%;
+    color: var(--branco-secundario);
+}
+
+.rodap2 {
+    padding: 15%;
+    color: var(--branco-secundario);
+}
