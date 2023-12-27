@@ -21,57 +21,67 @@
 
   <body>
     <!-- Começo do navbar -->
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html">
+    <nav
+      class="navbar navbar-expand-lg navbar-light px-5 position-fixed navbar-custom top-0 scrolled"
+    >
+      <div class="container-fluid py-2">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
           <img
-            src="../midias-site/CABEÇALHO-RODAPÉ/LOGO LOWE.png"
-            alt="Logo"
-            width="120"
-            height="80"
-            class="d-inline-block align-text-top"
+            src="../midias-site/logo.svg"
+            alt="Logo da Empresa"
+            class="img-fluid mx-2"
+            style="max-width: 120px"
           />
         </a>
+
+        <!-- Botão de hamburguer para mobile -->
         <button
           class="navbar-toggler"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="../index.html"
-              >Inicio</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="sobre.html">Sobre</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="nossos-clientes.html">Nossos clientes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="galeria.html">Galeria</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contato.html">Contato</a>
-          </li>
-        </ul>
+        <!-- Lista de links -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto" style="gap: 1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/sobre.html">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/nossos-clientes.html"
+                >Clientes</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/contato.html">Contato</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
     <!-- inicio da - seção 3 -->
     <div
-      class="d-flex flex-column px-5"
-      style="background-color: #181717; text-align: center;"
+      class="d-flex flex-column px-5 py-5"
+      style="background-color: #181717; text-align: center; margin-top: 5rem"
     >
-      <div class="d-flex flex-column flex-md-row gap-5 mt-5" style="border: 1px solid #303030;">
+      <div
+        class="d-flex flex-column flex-md-row gap-5 mt-5 p-4 rounded-2"
+        style="border: 1px solid #303030"
+      >
         <div class="p-2 d-flex flex-column align-items-center gap-1 img1">
           <h2 class="titulo-h2 text-start">
             Somos gratos por nossa trajetória até aqui <br />
@@ -80,12 +90,18 @@
             >SOMOS <strong>L O W E</strong></span
           >
 
-          <p class="txt">Atuamos no mercado desde 2015. Especialistas em prestação de serviços, atendemos até os mais exigentes clientes desde o projeto até a execução. Com os melhores equipamentos, da mais alta qualidade e tecnologia nos propomos a entregar qualidade técnica combinada ao melhor atendimento, desde o primeiro contato até a entrega final.</p>
+          <p class="txt">
+            Atuamos no mercado desde 2015. Especialistas em prestação de
+            serviços, atendemos até os mais exigentes clientes desde o projeto
+            até a execução. Com os melhores equipamentos, da mais alta qualidade
+            e tecnologia nos propomos a entregar qualidade técnica combinada ao
+            melhor atendimento, desde o primeiro contato até a entrega final.
+          </p>
         </div>
 
-        <div class="d-flex flex-wrap justify-content-center gap-4" style="border: 1px solid #303030;">
-          <div class="card" style="width: 250px; height: 150px;">
-            <img src="../midias-site/MENU-SOBRE/8-1.png" class="card-img-top" >
+        <div class="d-flex flex-wrap justify-content-center gap-4">
+          <div class="card" style="width: 250px; height: 150px">
+            <img src="../midias-site/MENU-SOBRE/8-1.png" class="card-img-top" />
             <div class="card-body bg-dark-gray">
               <h5 class="card-title">Captação e transmissão</h5>
               <p class="card-text">
@@ -95,7 +111,11 @@
           </div>
 
           <div class="card ml-4 mt-5" style="width: 250px">
-            <img src="../midias-site/MENU-SOBRE/9-1.png" class="card-img-top" alt="...">
+            <img
+              src="../midias-site/MENU-SOBRE/9-1.png"
+              class="card-img-top"
+              alt="..."
+            />
             <div class="card-body bg-dark-gray">
               <h5 class="card-title">Captação e transmissão</h5>
               <p class="card-text">
@@ -105,8 +125,12 @@
             </div>
           </div>
 
-          <div class="card " style="width: 250px; height: 150px;">
-            <img src="../midias-site/MENU-SOBRE/11-1.png" class="card-img-top" alt="...">
+          <div class="card" style="width: 250px; height: 150px">
+            <img
+              src="../midias-site/MENU-SOBRE/11-1.png"
+              class="card-img-top"
+              alt="..."
+            />
             <div class="card-body bg-dark-gray">
               <h5 class="card-title">Iluminação e Sonorização</h5>
               <p class="card-text">
@@ -117,7 +141,11 @@
           </div>
 
           <div class="card ml-4 mt-5" style="width: 250px">
-            <img src="../midias-site/MENU-SOBRE/10-1.png" class="card-img-top" alt="...">
+            <img
+              src="../midias-site/MENU-SOBRE/10-1.png"
+              class="card-img-top"
+              alt="..."
+            />
             <div class="card-body bg-dark-gray">
               <h5 class="card-title">Atendimento ao cliente personalizado</h5>
               <p class="card-text">
@@ -131,50 +159,33 @@
       </div>
     </div>
 
-
-
-
-
     <!-- inicio da - seção 3 -->
     <div
       class="d-flex flex-column align-items-center justify-content-center"
-      style="background-color: #26272b; text-align: center;padding: 3%; "
+      style="background-color: #26272b; text-align: center; padding: 3%"
     >
       <div class="p-2">
         <h3
           class="wow slideInLeft fw-light mb-0 mb-sm-5"
           data-wow-duration="2s"
         >
-        Nos conheça melhor
-      </h3>
-      <button
-      type="button"
-      class="wow slideInRight falaconosco2 btn btn-light w-100"
-      style="width: 120px"
-      data-wow-duration="2s"
-    >
-      <a
-        href="https://wa.me/5561999740077"
-        style="text-decoration: none !important; color: #303030"
-        class="a-efeito"
-        >Fale conosco</a
-      >
-    </button>
-
+          Nos conheça melhor
+        </h3>
+        <button
+          type="button"
+          class="wow slideInRight falaconosco2 btn btn-light w-100"
+          style="width: 120px"
+          data-wow-duration="2s"
+        >
+          <a
+            href="https://wa.me/5561999740077"
+            style="text-decoration: none !important; color: #303030"
+            class="a-efeito"
+            >Fale conosco</a
+          >
+        </button>
       </div>
-
     </div>
-
-
-
-
-
-
-
-
-
-
-
 
     <footer>
       <div
@@ -248,4 +259,7 @@
       DESENVOLVIDO POR SISTEMA BOSS - TUDO DO SEU JEITO.
     </div>
   </body>
+
+  <script src="/bootstrap-5.2.3/js/core.min.js"></script>
+  <script src="/bootstrap-5.2.3/js/script.js"></script>
 </html>

@@ -32,55 +32,62 @@
 
   <body>
     <!-- Começo do navbar -->
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html">
+    <nav
+      class="navbar navbar-expand-lg navbar-light px-5 position-fixed navbar-custom top-0 scrolled"
+    >
+      <div class="container-fluid py-2">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
           <img
-            src="../midias-site/CABEÇALHO-RODAPÉ/LOGO LOWE.png"
-            alt="Logo"
-            width="120"
-            height="80"
-            class="d-inline-block align-text-top"
+            src="../midias-site/logo.svg"
+            alt="Logo da Empresa"
+            class="img-fluid mx-2"
+            style="max-width: 120px"
           />
         </a>
+
+        <!-- Botão de hamburguer para mobile -->
         <button
           class="navbar-toggler"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="../index.html"
-              >Inicio</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="sobre.html">Sobre</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="nossos-clientes.html">Nossos clientes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="galeria.html">Galeria</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contato.html">Contato</a>
-          </li>
-        </ul>
+        <!-- Lista de links -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto" style="gap: 1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/sobre.html">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/nossos-clientes.html"
+                >Clientes</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/contato.html">Contato</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
     <!-- inicio da - seção 4 -->
     <div
-      class="d-flex flex-column"
-      style="background-color: #181717; text-align: center"
+      class="d-flex flex-column py-5"
+      style="background-color: #181717; text-align: center; margin-top: 7rem"
     >
       <!-- quadrado 1-->
       <div class="d-flex">
@@ -331,4 +338,6 @@
     </div>
   </body>
   <script type="text/javascript" src="/bootstrap-5.2.3/js/carousel.js"></script>
+  <script src="/bootstrap-5.2.3/js/core.min.js"></script>
+  <script src="/bootstrap-5.2.3/js/script.js"></script>
 </html>
