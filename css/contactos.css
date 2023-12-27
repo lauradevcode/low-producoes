@@ -6,12 +6,19 @@
     padding: 8rem;
   }
 
+  @media (max-width: 767.98px) {
+    .talking-about-us {
+      padding: 2rem;
+      margin-top: 4rem;
+    }
+  }
+
   .background-talking {
     background-color: rgba(var(--color_12), 0.8);
   }
 
   .title-talking-about-us {
-    font-size: 50px;
+    font-size: 2.5rem;
     text-align: left;
     padding: 0 4rem;
     padding-bottom: 1rem;
