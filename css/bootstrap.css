@@ -3664,16 +3664,27 @@
 	 color: #fff;
  }
  
- .card {
+ .card{
 	 position: relative;
 	 display: flex;
 	 flex-direction: column;
-	 min-width: 0;
+	 min-width: auto;
+	 width: auto;
 	 word-wrap: break-word;
 	 background-color: #1B1C1E;
 	 background-clip: border-box;
 	 border: 1px solid rgba(0, 0, 0, 0.125);
 	 border-radius: 15px;
+ }
+ .card-img-top {
+	width: 90px;
+	padding-top: 10px;
+	padding-left: 15px;
+	margin-top: 10px;
+ }
+
+ .card1{
+		width: 30%;
  }
  
  .card > hr {
