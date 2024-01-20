@@ -52,9 +52,39 @@ nav ul>li>.nav-link:hover {
     background-image: url("../midias-site/MENU-SOBRE/fundo.webp");
     height: 700px;
 }
+@media (max-width:1200px) {
+	.img1{
+        background-image: url("../midias-site/MENU-SOBRE/fundo.webp");
+        width: auto;
+    }
+}
+@media (max-width:720) {
+	.img1{
+        background-image: url("../midias-site/MENU-SOBRE/fundo.webp");
+        width: auto;
+    }
+}
+@media (max-width:580) {
+	.img1{
+        background-image: url("../midias-site/MENU-SOBRE/fundo.webp");
+        width: auto;
+    }
+}
+
 
 .txt{
     text-align: justify;
     width: 300px;
     align-items: center;
+}
+.txt2{
+    text-align: justify;
+    width: 300px;
+    align-items: center;
+}
+
+/* APAGAR DEPOIS DOS TESTES */
+
+.coluna{
+    border: 1px solid whitesmoke;
 }

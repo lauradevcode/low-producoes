@@ -4996,6 +4996,10 @@
  .bg-dark-gray{
 	 background-color: #1B1C1E !important;
  }
+
+ .bg-dark{
+	background-color: #181717;
+ }
  
  .border {
 	 border: 1px solid #dee2e6 !important;
