@@ -589,8 +589,9 @@
 	 position: relative;
 	 width: 100%;
 	 min-height: 1px;
-	 padding-left: 25px;
-	 padding-bottom: 05%;
+	 padding: auto;
+	 margin-top: 1rem;
+	 margin-bottom: 1rem;
  }
  
  .col {
