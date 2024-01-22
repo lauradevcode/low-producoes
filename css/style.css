@@ -118,6 +118,7 @@ h1 {
     margin-top: 4%;
     font-family: var(--fonte-principal);
     font-weight: 200;
+	text-align: center!important;
 }
 .icons1 {
 	width: 50%;

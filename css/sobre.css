@@ -56,28 +56,26 @@ nav ul>li>.nav-link:hover {
 	.img1{
         background-image: url("../midias-site/MENU-SOBRE/fundo.webp");
         width: auto;
+        
     }
 }
 @media (max-width:720) {
 	.img1{
         background-image: url("../midias-site/MENU-SOBRE/fundo.webp");
         width: auto;
+        
     }
 }
-@media (max-width:580) {
+@media (max-width:580) {    
 	.img1{
         background-image: url("../midias-site/MENU-SOBRE/fundo.webp");
         width: auto;
+        
     }
 }
 
 
 .txt{
-    text-align: justify;
-    width: 300px;
-    align-items: center;
-}
-.txt2{
     text-align: justify;
     width: 300px;
     align-items: center;
