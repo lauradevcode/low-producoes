@@ -34,6 +34,7 @@
     flex-direction: column !important;
     gap: 1rem;
     margin: 0 auto;
+
   }
 
   .formulario label {
@@ -43,9 +44,9 @@
   .formulario input {
     background-color: #181717;
     border: solid 0.5px #3f3f3f;
-    width: 100%;
-    padding: 8px;
     color: #f1f1f1;
+    width: 98%;
+    padding: 2%;
   }
 
   .formulario textarea {
