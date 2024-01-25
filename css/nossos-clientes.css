@@ -35,13 +35,21 @@ nav ul>li>.nav-link:hover {
     color: var(--roxo-principal) !important;
 }
 
+.flexbox-clientes {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* padding: 1px; */
+}
+
 .quadrado-principal {
     margin: 2%;
     width: 100%;
     display: flex;
     flex-direction: row;
 }
-.item {
+
+.item-clientes {
     border: 1px solid rgba(199, 199, 199, 0.39);
     width: 100%;
     padding: 1%;
@@ -50,11 +58,7 @@ nav ul>li>.nav-link:hover {
     width: 100%;
     height: 100%;
 }
-.container {
-    display: flex;
-    flex-direction: row;
-    /* padding: 1px; */
-}
+
 .rodap1 {
     padding: 6%;
     color: var(--branco-secundario);
@@ -63,4 +67,29 @@ nav ul>li>.nav-link:hover {
 .rodap2 {
     padding: 15%;
     color: var(--branco-secundario);
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    .flexbox-clientes {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        /* padding: 1px; */
+    }
+
+    .quadrado-principal  {
+        display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+    }
+
+    .titulo-nossosclientes  {
+        /* background-color: green; */
+        text-align: center;
+        padding: 5%;
+        /* font-size: 2rem!important; */
+        /* font-size: 40px; */
+    }
 }

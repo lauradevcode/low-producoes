@@ -49,7 +49,7 @@ h1 {
 
 .texto-sublinhado {
     text-decoration: underline;
-	color: var(--branco-secundario);		
+		color: white;		
 }
 
 .texto-colorido {

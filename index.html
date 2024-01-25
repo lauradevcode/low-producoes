@@ -1,360 +1,670 @@
 <!DOCTYPE html>
 <html lang="pt-br" class="wide wow-animation">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Low e Produções</title>
-    <!-- CSS -->
-    <link href="css/style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/main.min.css" />
-    <link rel="stylesheet" href="css/animate.css" />
-    <script src="js/wow.min.js"></script>
-    <script>
-      new WOW().init();
-    </script>
-  </head>
 
-  <body style="background-color: #141416">
-    <!-- Começo do navbar -->
-    <nav
-      class="navbar navbar-expand-lg navbar-light px-5 position-fixed navbar-custom top-0"
-    >
-      <div class="container-fluid py-2">
-        <!-- Logo -->
-        <a class="navbar-brand" href="#">
-          <img
-            src="./midias-site/logo.svg"
-            alt="Logo da Empresa"
-            class="img-fluid mx-2"
-            style="max-width: 120px"
-          />
-        </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Low e Produções</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/sobre.css" />
+  <link rel="stylesheet" href="css/nossos-clientes.css" />
+  <link rel="stylesheet" href="css/galeria.css" />
+  <link rel="stylesheet" href="../css/contactos.css" />
 
-        <!-- Botão de hamburguer para mobile -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+  <link rel="stylesheet" href="css/main.min.css" />
+  <link rel="stylesheet" href="css/animate.css" />
 
-        <!-- Lista de links -->
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ml-auto" style="gap: 1rem">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pages/sobre.html">Sobre</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pages/nossos-clientes.html">Clientes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pages/galeria.html">Galeria</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pages/contato.html">Contato</a>
-            </li>
-          </ul>
-        </div>
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+</head>
+
+<body style="background-color: #141416">
+  <!-- Começo do navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light px-5 position-fixed navbar-custom top-0">
+    <div class="container-fluid py-2">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        <img src="./midias-site/logo.svg" alt="Logo da Empresa" class="img-fluid mx-2" style="max-width: 120px" />
+      </a>
+
+      <!-- Botão de hamburguer para mobile -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Lista de links -->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto" style="gap: 1rem">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/sobre.html">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/nossos-clientes.html">Clientes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/galeria.html">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/contato.html">Contato</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <section
-      class="section swiper-container swiper-slider swiper-slider-minimal"
-      data-loop="true"
-      data-slide-effect="fade"
-      data-autoplay="4759"
-      data-simulate-touch="true"
-    >
-      <div class="swiper-wrapper">
-        <div class="swiper-slide swiper-slide_video">
-          <div class="container my-5">
-            <div class="jumbotron-classic-content" style="margin-left: 30px">
-              <h1>
-                A sua
-                <span class="texto-sublinhado">full service </span> no<span
-                  class="texto-colorido"
-                  ><br />DISTRITO FEDERAL</span
-                >
-              </h1>
-              <div class="p-2">
-                <button type="button" class="falaconosco1 btn btn-light">
-                  <a
-                    href="https://wa.me/5561999740077"
-                    style="color: rgb(168, 168, 168)"
-                    class="a-efeito"
-                    >Fale conosco</a
-                  >
-                </button>
-              </div>
+  <section class="section swiper-container swiper-slider swiper-slider-minimal" data-loop="true"
+    data-slide-effect="fade" data-autoplay="4759" data-simulate-touch="true">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide swiper-slide_video">
+        <div class="container my-5">
+          <div class="jumbotron-classic-content" style="margin-left: 30px">
+            <h1 style="color: white;">
+              A sua
+              <span class="texto-sublinhado">full service </span> no<span class="texto-colorido"><br />DISTRITO
+                FEDERAL</span>
+            </h1>
+            <div class="p-2">
+              <button type="button" class="falaconosco1 btn btn-light">
+                <a href="https://wa.me/5561999740077" style="color: rgb(168, 168, 168)" class="a-efeito">Fale
+                  conosco</a>
+              </button>
             </div>
           </div>
         </div>
       </div>
-
-      <wix-video
-        id="videoContainer_comp-kk2oiy7x"
-        data-video-info='{"fittingType":"fill","alignType":"center","hasBgScrollEffect":"true","bgEffectName":"BgFake3D","videoId":"8c0055_996ed4cf181c4ff198b19b635677bca7","videoWidth":1920,"videoHeight":1080,"qualities":[{"quality":"360p","size":230400,"url":"video/8c0055_996ed4cf181c4ff198b19b635677bca7/360p/mp4/file.mp4"},{"quality":"480p","size":409920,"url":"video/8c0055_996ed4cf181c4ff198b19b635677bca7/480p/mp4/file.mp4"},{"quality":"720p","size":921600,"url":"video/8c0055_996ed4cf181c4ff198b19b635677bca7/720p/mp4/file.mp4"},{"quality":"1080p","size":2073600,"url":"video/8c0055_996ed4cf181c4ff198b19b635677bca7/1080p/mp4/file.mp4"}],"isVideoDataExists":"1","videoFormat":"mp4","playbackRate":1,"autoPlay":true,"containerId":"comp-kk2oiy7x","animatePoster":"none"}'
-        class="bX9O_S bgVideo yK6aSC"
-        style="transform: translate3d(0px, 0px, 0px)"
-        ><video
-          id="comp-kk2oiy7x_video"
-          class="K8MSra"
-          role="presentation"
-          crossorigin="anonymous"
-          playsinline=""
-          preload="auto"
-          muted=""
-          loop=""
-          tabindex="-1"
-          autoplay=""
-          src="https://video.wixstatic.com/video/8c0055_996ed4cf181c4ff198b19b635677bca7/1080p/mp4/file.mp4"
-        ></video>
-      </wix-video>
-      <a
-        href="https://wa.me/5561999740077"
-        target="_blank"
-        class="whatsapp-btn"
-        aria-label="Whats"
-      ></a>
-    </section>
-    <!-- corpo do site - seção 2 -->
-
-    <div
-      class="secao2 d-flex flex-column-reverse flex-md-row align-items-center py-5 p-2"
-      style="background-color: #000000"
-    >
-      <div class="imagem-secao2 p-2 mt-4 mt-sm-0">
-        <img
-          src="midias-site/MENU-INÍCIO/PÁGINA 2/foto fundo 1.png"
-          width="100%"
-          class="wow slideInLeft"
-          data-wow-duration="2s"
-        />
-      </div>
-
-      <div class="texto-secao2 d-flex flex-column mx-5">
-        <span
-          class="wow slideInRight txt1-secao2"
-          data-wow-duration="2s"
-          style="color: white"
-          >SUA EXPECTATIVA
-        </span>
-
-        <span
-          class="wow slideInRight txt2-secao2"
-          data-wow-duration="2s"
-          style="color: #889ce7"
-          >NOSSA REALIDADE</span
-        >
-        <br />
-        <p
-          class="wow slideInRight lead"
-          data-wow-duration="3s"
-          style="color: white; line-height: 160%; font-size: 20px"
-        >
-          Projetistas especializados integram nossa equipe, e de maneira
-          personalizada seu projeto sai do papel. Idealizamos as intenções de
-          nossos clientes e como já é tradição, sempre executando o planejamento
-          no mais alto nível. Assim, com nossa tecnologia, entregamos ao mercado
-          estruturas de multi-formatos em eventos presenciais, virtuais ou
-          híbridos por todo o Brasil.
-        </p>
-
-        <button
-          type="button"
-          class="wow slideInRight falaconosco2 btn btn-light w-100"
-          style="width: 120px"
-          data-wow-duration="2s"
-        >
-          <a
-            href="https://wa.me/5561999740077"
-            style="text-decoration: none !important; color: #303030"
-            class="a-efeito"
-            >Fale conosco</a
-          >
-        </button>
-      </div>
-
-      <!-- fim do corpo - seção 1 -->
     </div>
 
-    <!-- inicio da - seção 3 -->
-    <div
-      class="d-flex flex-column align-items-center justify-content-center"
-      style="background-color: #181717; text-align: center"
-    >
-      <div class="p-2">
-        <h3
-          class="wow slideInLeft fw-light mb-0 mb-sm-5"
-          data-wow-duration="2s"
-        >
-          Somos gratos por nossa trajetória até aqui
+    <wix-video id="videoContainer_comp-kk2oiy7x"
+      data-video-info='{"fittingType":"fill","alignType":"center","hasBgScrollEffect":"true","bgEffectName":"BgFake3D","videoId":"8c0055_996ed4cf181c4ff198b19b635677bca7","videoWidth":1920,"videoHeight":1080,"qualities":[{"quality":"360p","size":230400,"url":"video/8c0055_996ed4cf181c4ff198b19b635677bca7/360p/mp4/file.mp4"},{"quality":"480p","size":409920,"url":"video/8c0055_996ed4cf181c4ff198b19b635677bca7/480p/mp4/file.mp4"},{"quality":"720p","size":921600,"url":"video/8c0055_996ed4cf181c4ff198b19b635677bca7/720p/mp4/file.mp4"},{"quality":"1080p","size":2073600,"url":"video/8c0055_996ed4cf181c4ff198b19b635677bca7/1080p/mp4/file.mp4"}],"isVideoDataExists":"1","videoFormat":"mp4","playbackRate":1,"autoPlay":true,"containerId":"comp-kk2oiy7x","animatePoster":"none"}'
+      class="bX9O_S bgVideo yK6aSC" style="transform: translate3d(0px, 0px, 0px)"><video id="comp-kk2oiy7x_video"
+        class="K8MSra" role="presentation" crossorigin="anonymous" playsinline="" preload="auto" muted="" loop=""
+        tabindex="-1" autoplay=""
+        src="https://video.wixstatic.com/video/8c0055_996ed4cf181c4ff198b19b635677bca7/1080p/mp4/file.mp4"></video>
+    </wix-video>
+    <a href="https://wa.me/5561999740077" target="_blank" class="whatsapp-btn" aria-label="Whats"></a>
+  </section>
+
+
+  <!-- corpo do site - seção 2 -->
+  <div class="secao2 d-flex flex-column-reverse flex-md-row align-items-center py-5 p-2"
+    style="background-color: #000000">
+    <div class="imagem-secao2 p-2 mt-4 mt-sm-0">
+      <img src="midias-site/MENU-INÍCIO/PÁGINA 2/foto fundo 1.png" width="100%" class="wow slideInLeft"
+        data-wow-duration="2s" />
+    </div>
+
+    <div class="texto-secao2 d-flex flex-column mx-5">
+      <span class="wow slideInRight txt1-secao2" data-wow-duration="2s" style="color: white">SUA EXPECTATIVA
+      </span>
+
+      <span class="wow slideInRight txt2-secao2" data-wow-duration="2s" style="color: #889ce7">NOSSA REALIDADE</span>
+      <br />
+      <p class="wow slideInRight lead" data-wow-duration="3s" style="color: white; line-height: 160%; font-size: 20px">
+        Projetistas especializados integram nossa equipe, e de maneira
+        personalizada seu projeto sai do papel. Idealizamos as intenções de
+        nossos clientes e como já é tradição, sempre executando o planejamento
+        no mais alto nível. Assim, com nossa tecnologia, entregamos ao mercado
+        estruturas de multi-formatos em eventos presenciais, virtuais ou
+        híbridos por todo o Brasil.
+      </p>
+
+      <button type="button" class="wow slideInRight falaconosco2 btn btn-light w-100" style="width: 120px;"
+        data-wow-duration="2s">
+        <a href="https://wa.me/5561999740077" style="text-decoration: none !important; color: #303030"
+          class="a-efeito">Fale conosco</a>
+      </button>
+    </div>
+
+    <!-- fim do corpo - seção 1 -->
+  </div>
+
+  <!-- inicio da - seção 3 -->
+  <div class="d-flex flex-column align-items-center justify-content-center"
+    style="background-color: #181717; text-align: center">
+    <div class="p-2">
+      <h3 class="wow slideInLeft fw-light mb-0 mb-sm-5" data-wow-duration="2s">
+        Somos gratos por nossa trajetória até aqui
+      </h3>
+    </div>
+
+    <div class="wow slideInLeft d-flex flex-sm-row flex-column justify-content-center align-items-center"
+      data-wow-duration="2s">
+      <div class="icons1 p-2 my-3">
+        <span class="txt-secao3">+8</span> <br />
+        <span class="sub-txt-secao3">Anos de experiencia
+          <div class="borda d-none d-sm-block"></div>
+        </span>
+      </div>
+      <div class="icons1 p-2 my-3">
+        <span class="txt-secao3">+5</span> <br /><span class="sub-txt-secao3">Estados do Brasil
+          <div class="borda d-none d-sm-block"></div></span>
+      </div>
+      <div class="icons1 p-2 my-3">
+        <span class="txt-secao3">
+          <svg class="svg2" preserveAspectRatio="xMidYMid meet" data-bbox="40.5 42.5 119 115.001"
+            viewBox="40.5 42.5 119 115.001" height="600" width="600" xmlns="http://www.w3.org/2000/svg"
+            data-type="color" role="presentation" aria-hidden="true" aria-label="">
+            <defs>
+              <style>
+                #comp-lp67gop6 svg [data-color="1"] {
+                  fill: #889ce7;
+                }
+              </style>
+            </defs>
+            <g>
+              <path
+                d="M149.46 73.135l-.159.173v75.764h-45.963v-38.043a164.404 164.404 0 0 1-8.438 4.534v33.51H48.939v-18.874c-2.796.427-5.612.78-8.439 1.052v26.25h117.24V63.286a218.86 218.86 0 0 1-8.28 9.849z"
+                fill="#2F54DD" data-color="1"></path>
+              <path
+                d="M149.138 42.5C130.152 69.147 94.627 105.906 40.5 111.871v8.487c37.688-3.914 72.527-22.698 100.864-54.434A214.631 214.631 0 0 0 159.5 42.5h-10.362z"
+                fill="#2F54DD" data-color="1"></path>
+            </g>
+          </svg>
+        </span>
+        <br />
+        <span class="sub-txt-secao3"> Crescimento exponencial </span>
+        <div class="borda d-none d-sm-block"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sobre -->
+  <div class="d-flex flex-column px-3 px-md-5 py-5"
+    style="background-color: #181717; text-align: center; margin-top: 5rem">
+    <div class="row d-flex flex-column flex-md-row mt-5 p-4 rounded-2" style="border: 1px solid #303030">
+
+      <div class="p-2 col-md-6 align-items-center gap-1 img1 p-6">
+
+        <h1 class="titulo-h2 col-md-8 fs-1 txt2 text-secondary">SOMOS <br><strong>L O W E</strong></h1>
+
+        <p class="txt col-md-10" style="text-align: center;">
+          Atuamos no mercado desde 2015. Especialistas em prestação de
+          serviços, atendemos até os mais exigentes clientes desde o projeto
+          até a execução. Com os melhores equipamentos, da mais alta qualidade
+          e tecnologia nos propomos a entregar qualidade técnica combinada ao
+          melhor atendimento, desde o primeiro contato até a entrega final.
+        </p>
+      </div>
+
+      <div class="col-md-6 d-flex flex-wrap">
+
+        <div class="card m-md-4 col-md-4">
+          <img src="../midias-site/MENU-SOBRE/8-1.png" class="card-img-top" />
+          <div class="card-body bg-dark-gray">
+            <h5 class="card-title">Captação e transmissão</h5>
+            <p class="card-text">
+              Alta resolução, p2 e p3, tecnologia e personalização.
+            </p>
+          </div>
+        </div>
+
+        <div class="card m-md-4 col-md-4">
+          <img src="../midias-site/MENU-SOBRE/9-1.png" class="card-img-top" />
+          <div class="card-body bg-dark-gray">
+            <h5 class="card-title">Captação e transmissão</h5>
+            <p class="card-text">
+              Alta resolução, p2 e p3, tecnologia e personalização.
+            </p>
+          </div>
+        </div>
+
+
+
+        <div class="card m-md-4 col-md-4">
+          <img src="../midias-site/MENU-SOBRE/11-1.png" class="card-img-top" alt="..." />
+          <div class="card-body bg-dark-gray">
+            <h5 class="card-title">Iluminação e Sonorização</h5>
+            <p class="card-text">
+              Dispomos dos melhores equipamentos de sonorização e iluminação
+              para seu evento.
+            </p>
+          </div>
+        </div>
+
+        <div class="card m-md-4 col-md-4">
+          <img src="../midias-site/MENU-SOBRE/10-1.png" class="card-img-top" alt="..." />
+          <div class="card-body bg-dark-gray">
+            <h5 class="card-title">Atendimento ao cliente personalizado</h5>
+            <p class="card-text">
+              Nosso principal pilar é proporcionar a melhor experiência desde
+              o primeiro contato com nosso cliente.
+              <span class="fst-italic">Seu sonho também é o nosso.</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Nossos clientes-->
+  <div class="flexbox-clientes container">
+    <div class="quadrado-principal">
+      <div class="item-clientes">
+        <h3 style="color: white" class="titulo-nossosclientes p-2">
+          Alguns de nossos
+          <span style="color: #810cd2">CLIENTES</span>
         </h3>
       </div>
+      <!-- quadrado 1-->
+      <div class="item-clientes">
+        <img src="../midias-site/MENU-CLIENTES/19.png" class="imagens-clientes" />
+      </div>
+      <div class="item-clientes">
+        <img src="../midias-site/MENU-CLIENTES/20.png" class="imagens-clientes" />
+      </div>
+      <div class="item-clientes">
+        <img src="../midias-site/MENU-CLIENTES/21.png" class="imagens-clientes" />
+      </div>
+      <div class="item-clientes">
+        <img src="../midias-site/MENU-CLIENTES/22.png" class="imagens-clientes" />
+      </div>
+    </div>
+  </div>
 
-      <div
-        class="wow slideInLeft d-flex flex-sm-row flex-column justify-content-center align-items-center"
-        data-wow-duration="2s"
-      >
-        <div class="icons1 p-2 my-3">
-          <span class="txt-secao3">+8</span> <br />
-          <span class="sub-txt-secao3"
-            >Anos de experiencia
-            <div class="borda d-none d-sm-block"></div>
-          </span>
-        </div>
-        <div class="icons1 p-2 my-3">
-          <span class="txt-secao3">+5</span> <br /><span class="sub-txt-secao3"
-            >Estados do Brasil
-            <div class="borda d-none d-sm-block"></div
-          ></span>
-        </div>
-        <div class="icons1 p-2 my-3">
-          <span class="txt-secao3">
-            <svg
-              class="svg2"
-              preserveAspectRatio="xMidYMid meet"
-              data-bbox="40.5 42.5 119 115.001"
-              viewBox="40.5 42.5 119 115.001"
-              height="600"
-              width="600"
-              xmlns="http://www.w3.org/2000/svg"
-              data-type="color"
-              role="presentation"
-              aria-hidden="true"
-              aria-label=""
-            >
-              <defs>
-                <style>
-                  #comp-lp67gop6 svg [data-color="1"] {
-                    fill: #889ce7;
-                  }
-                </style>
-              </defs>
-              <g>
-                <path
-                  d="M149.46 73.135l-.159.173v75.764h-45.963v-38.043a164.404 164.404 0 0 1-8.438 4.534v33.51H48.939v-18.874c-2.796.427-5.612.78-8.439 1.052v26.25h117.24V63.286a218.86 218.86 0 0 1-8.28 9.849z"
-                  fill="#2F54DD"
-                  data-color="1"
-                ></path>
-                <path
-                  d="M149.138 42.5C130.152 69.147 94.627 105.906 40.5 111.871v8.487c37.688-3.914 72.527-22.698 100.864-54.434A214.631 214.631 0 0 0 159.5 42.5h-10.362z"
-                  fill="#2F54DD"
-                  data-color="1"
-                ></path>
-              </g>
-            </svg>
-          </span>
-          <br />
-          <span class="sub-txt-secao3"> Crescimento exponencial </span>
-          <div class="borda d-none d-sm-block"></div>
-        </div>
+  <!-- quadrado 2-->
+  <div class="flexbox-clientes container">
+    <div class="quadrado-principal">
+      <div class="item-clientes">
+        <img src="../midias-site/MENU-CLIENTES/23.png" class="imagens-clientes" />
+      </div>
+      <div class="item-clientes">
+        <img src="../midias-site/MENU-CLIENTES/24.png" class="imagens-clientes" />
+      </div>
+      <div class="item-clientes">
+        <img src="../midias-site/MENU-CLIENTES/25.png" class="imagens-clientes" />
+      </div>
+      <div class="item-clientes">
+        <img src="../midias-site/MENU-CLIENTES/26.png" class="imagens-clientes" />
+      </div>
+    </div>
+  </div>
+
+  <!-- quadrado 3-->
+  <div class="flexbox-clientes container">
+    <div class="quadrado-principal">
+      <div class="item-clientes">
+        <img src="../midias-site/MENU-CLIENTES/27.png" class="imagens-clientes" />
+      </div>
+      <div class="item-clientes">
+        <img src="../midias-site/MENU-CLIENTES/28.png" class="imagens-clientes" />
+      </div>
+      <div class="item-clientes">
+        <img src="../midias-site/MENU-CLIENTES/29.png" class="imagens-clientes" />
+      </div>
+      <div class="item-clientes">
+        <img src="../midias-site/MENU-CLIENTES/30.png" class="imagens-clientes" />
+      </div>
+    </div>
+  </div>
+
+  <!-- quadrado 4-->
+  <div class="flexbox-clientes container">
+    <div class="quadrado-principal">
+      <div class="item-clientes">
+        <img src="../midias-site/MENU-CLIENTES/31.png" class="imagens-clientes" />
+      </div>
+      <div class="item-clientes">
+        <img src="../midias-site/MENU-CLIENTES/32.png" class="imagens-clientes" />
+      </div>
+      <div class="item-clientes">
+        <img src="../midias-site/MENU-CLIENTES/33.png" class="imagens-clientes" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Galeria -->
+  <div class="d-flex flex-column py-5" style="background-color: #181717; text-align: center;">
+    <!-- video e texto-->
+    <div class="d-flex flex-column flex-lg-row gap-3 py-4 px-2 px-md-5">
+      <div class="embed-responsive embed-responsive-16by9">
+        <video class="embed-responsive-item" controls>
+          <source src="/midias-site/MENU-GALERIA/Vídeo 2 galeria.mp4" type="video/mp4" />
+          Desculpe, seu navegador não suporta vídeos HTML5.
+        </video>
+      </div>
+
+      <div>
+        <h2 style="color: white;">GALERIA LOWE</h2>
+        <span>alguns de nossos trabalhos</span>
+        <p>
+          Já somamos mais de 8 anos de experiência realizando eventos dos mais
+          distintos formatos. Aqui estão alguns vídeos e algumas imagens de
+          nossos eventos.
+        </p>
+        <button type="button" class="wow slideInRight falaconosco2 btn btn-light" style="width: 120px"
+          data-wow-duration="2s">
+          <a href="https://wa.me/5561999740077" style="text-decoration: none !important; color: #303030"
+            class="a-efeito">Fale conosco</a>
+        </button>
       </div>
     </div>
 
-    <footer>
-      <div
-        class="container-fluid justify-content-between flex-column flex-sm-row align-items-center justify-content-center"
-        style="background-color: #181717"
-      >
-        <div
-          class="rodap1 d-flex flex-column align-items-center align-items-sm-start"
-          style="color: rgb(138, 138, 138)"
-        >
-          <div class="p-2 d-flex d-sm-block justify-content-center">
-            <img src="midias-site/CABEÇALHO-RODAPÉ/LOGO LOWE.png" width="40%" />
+    <!-- quadrado 2-->
+    <div class="bg-dark-gray">
+      <h2 class="title"  style="color: white;margin-top: 4%;">Alguns de nossos eventos</h2>
+
+      <div class="carousel-container">
+        <img src="/midias-site//MENU-GALERIA/seta.png" class="btn-voltar" alt="" />
+
+        <div class="carousel">
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/1.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 1" />
           </div>
-          <div class="p-2">
-            <span>(61) 99974-0077 - Lion Lowe</span>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/2.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 2" />
           </div>
-          <div class="p-2">
-            <span>atendimento@loweproducoes.com</span>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/3.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 3" />
           </div>
-          <div class="p-2">Distrito Federal</div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/4.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 4" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/5.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 5" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/6.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 6" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/7.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 7" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/8.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 8" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/9.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 9" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/10.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 10" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/11.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 11" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/12.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 12" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/13.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 13" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/14.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 14" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/15.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 15" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/16.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 16" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/17.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 17" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/18.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 18" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/19.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 19" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/20.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 20" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/21.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 21" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/22.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 22" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/23.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 23" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/24.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 24" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/25.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 25" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/26.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 26" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/27.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 27" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/28.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 28" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/29.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 29" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/30.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 30" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/31.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 31" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/32.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 32" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/33.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 33" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/34.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 34" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/35.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 35" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/36.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 36" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/37.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 37" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/38.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 38" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/39.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 39" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/40.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 40" />
+          </div>
+          <div class="item">
+            <img src="/midias-site/MENU-GALERIA/41.jpg" class="img-fluid rounded-2" style="max-height: 20rem"
+              alt="imagem 41" />
+          </div>
         </div>
 
-        <div
-          class="rodap2 d-flex flex-column"
-          style="color: rgb(138, 138, 138)"
-        >
-          <div class="p-2">
-            <span> Redes sociais:</span>
+        <img src="/midias-site//MENU-GALERIA/seta.png" class="btn-proximo" alt="" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Formulario -->
+  <div class="d-flex flex-column w-100" style="background-color: #181717; text-align: center; color: aliceblue">
+    <div class="talking-about-us">
+
+      <div class="background-talking py-1">
+        <h3 class="title-talking-about-us px-5" style="color: white;margin-top: 1%;">Fale conosco</h3>
+
+        <div class="d-flex flex-column flex-md-row gap-3 gap-md-5 px-4 px-md-5">
+          <div>
+            <h6><strong>Telefone</strong></h6>
+            <small>(61) 99974-0077</small>
           </div>
-          <br />
-          <div class="p-2" style="width: 180px">
-            <img src="midias-site/icon/wpp.webp" />
-            <span
-              ><a
-                href="https://wa.me/5561999740077
-            (61) 99974-0077"
-                style="color: rgb(179, 179, 179)"
-                >(61) 99974-0077</a
-              ></span
-            >
+
+          <div>
+            <h6><strong>Email</strong></h6>
+            <small>atendimento@loweproducoes.com</small>
           </div>
-          <div class="p-2" style="width: 180px">
-            <img src="midias-site/icon/insta.webp" />
-            <span
-              ><a
-                href=" https://www.instagram.com/loweproducoes/"
-                style="color: rgb(179, 179, 179)"
-                >@loweproducoes</a
-              ></span
-            >
+
+          <div>
+            <h6><strong>Redes sociais</strong></h6>
+            <small>
+              Whatsapp: (61) 99974-0077 <br />
+              @lowerproducoes
+            </small>
           </div>
+        </div>
+
+        <div class="formulario pb-5 px-4 px-md-5">
+          <div class="d-flex flex-wrap flex-md-nowrap gap-3 w-100" >
+            <div class="d-flex flex-column gap-1 align-items-start w-100 mb-3">
+              <label for="name">Nome</label>
+              <input class="rounded-1 flex-grow-1" type="text" id="name" name="name"/>
+            </div>
+        
+            <div class="d-flex flex-column gap-1 align-items-start w-100 mb-3">
+              <label for="nickName">Sobrenome</label>
+              <input class="rounded-1 flex-grow-1" type="text" id="nickName" name="nickName" />
+            </div>
+        
+            <div class="d-flex flex-column gap-1 align-items-start w-100 mb-3">
+              <label for="email">Email*</label>
+              <input class="rounded-1 flex-grow-1" type="email" id="email" name="email" />
+            </div>
+          </div>
+        
+          <div class="d-flex flex-column gap-1 align-items-start mb-3">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" class="rounded-1" rows="8" cols="50"></textarea>
+          </div>
+        
+          <button type="button" class="btn btn-primary mt-4" style="background-color: #889ce7; border-color: #889ce7">
+            Enviar
+          </button>
+        </div>
+        
+        
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- rodapé -->
+  <footer>
+    <div
+      class="container-fluid justify-content-between flex-column flex-sm-row align-items-center justify-content-center"
+      style="background-color: #181717">
+      <div class="rodap1 d-flex flex-column align-items-center align-items-sm-start" style="color: rgb(138, 138, 138)">
+        <div class="p-2 d-flex d-sm-block justify-content-center">
+          <img src="midias-site/CABEÇALHO-RODAPÉ/LOGO LOWE.png" width="40%" />
+        </div>
+        <div class="p-2">
+          <span>(61) 99974-0077 - Lion Lowe</span>
+        </div>
+        <div class="p-2">
+          <span>atendimento@loweproducoes.com</span>
+        </div>
+        <div class="p-2">Distrito Federal</div>
+      </div>
+
+      <div class="rodap2 d-flex flex-column" style="color: rgb(138, 138, 138)">
+        <div class="p-2">
+          <span> Redes sociais:</span>
+        </div>
+        <br />
+        <div class="p-2" style="width: 180px">
+          <img src="midias-site/icon/wpp.webp" />
+          <span><a href="https://wa.me/5561999740077
+            (61) 99974-0077" style="color: rgb(179, 179, 179)">(61) 99974-0077</a></span>
+        </div>
+        <div class="p-2" style="width: 180px">
+          <img src="midias-site/icon/insta.webp" />
+          <span><a href=" https://www.instagram.com/loweproducoes/"
+              style="color: rgb(179, 179, 179)">@loweproducoes</a></span>
         </div>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <div
-      style="
+  <div style="
         background-color: #242424;
         text-align: center;
         color: white;
         font-size: 14px;
         padding: 1%;
-      "
-    >
-      DESENVOLVIDO POR SISTEMA BOSS - TUDO DO SEU JEITO.
-    </div>
+      ">
+    DESENVOLVIDO POR SISTEMA BOSS - TUDO DO SEU JEITO.
+  </div>
 
-    <!-- Javascript-->
-    <script src="bootstrap-5.2.3/js/core.min.js"></script>
-    <script src="bootstrap-5.2.3/js/script.js"></script>
-    <script>
-      $(document).ready(function () {
-        function isMobile() {
-          return window.innerWidth <= 768;
-        }
+  <!-- Javascript-->
+  <script type="text/javascript" src="/bootstrap-5.2.3/js/carousel.js"></script>
+  <script src="bootstrap-5.2.3/js/core.min.js"></script>
+  <script src="bootstrap-5.2.3/js/script.js"></script>
 
-        $(window).scroll(function () {
-          var scroll = $(window).scrollTop();
+  <script>
+    $(document).ready(function () {
+      function isMobile() {
+        return window.innerWidth <= 768;
+      }
 
-          if (isMobile()) {
-            $(".navbar-custom").addClass("scrolled");
-          } else {
-            if (scroll >= 50) {
-              $(".navbar-custom").addClass("scrolled");
-            } else {
-              $(".navbar-custom").removeClass("scrolled");
-            }
-          }
-        });
+      $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
 
         if (isMobile()) {
           $(".navbar-custom").addClass("scrolled");
+        } else {
+          if (scroll >= 50) {
+            $(".navbar-custom").addClass("scrolled");
+          } else {
+            $(".navbar-custom").removeClass("scrolled");
+          }
         }
       });
-    </script>
-  </body>
+
+      if (isMobile()) {
+        $(".navbar-custom").addClass("scrolled");
+      }
+    });
+  </script>
+</body>
+
 </html>
