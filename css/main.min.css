@@ -947,7 +947,7 @@ h1 {
 }
 
 .whatsapp-btn {
-    position: absolute;
+    position: fixed;
     bottom: 30px;
     right: 10px;
     width: 60px;
@@ -968,38 +968,23 @@ h1 {
     animation-iteration-count: infinite;
     animation-timing-function: linear
 }
+/* Adicione ao seu CSS existente */
+.whatsapp-btn.visible {
+    bottom: 10px; /* Altere conforme necessário para ajustar a posição do botão quando visível */
+    opacity: 1;
+    visibility: visible;
+    transition: bottom 0.3s ease-out;
+}
 
 @keyframes trin {
-
-    20%,
-    26%,
-    32%,
-    38%,
-    44%,
-    50%,
-    56%,
-    62%,
-    68%,
-    74%,
-    80%,
-    from {
-        transform: rotate3d(0, 0, 1, 0deg)
+    0% {
+        transform: translateY(0);
     }
-
-    23%,
-    35%,
-    47%,
-    59%,
-    71% {
-        transform: rotate3d(0, 0, 1, 15deg)
+    50% {
+        transform: translateY(-5px);
     }
-
-    29%,
-    41%,
-    53%,
-    65%,
-    77% {
-        transform: rotate3d(0, 0, 1, -15deg)
+    100% {
+        transform: translateY(0);
     }
 }
 

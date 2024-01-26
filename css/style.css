@@ -47,6 +47,7 @@ h1 {
     font-size: 4rem;
 }
 
+
 .texto-sublinhado {
     text-decoration: underline;
 		color: white;		
@@ -110,6 +111,10 @@ h1 {
 @media (max-width: 768px) {
 	.texto-secao2 {
 			width: 70%;
+	}
+	.rede-social {
+		/* background-color: red; */
+		margin-left: 40px;
 	}
 }
 
@@ -770,7 +775,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .navbar-light .navbar-toggler {
-	background-color: #989696 !important;
+	background-color: #a3b4f1!important;
 }
 
 .context-dark .link-default, .bg-gray-700 .link-default, .bg-gray-800 .link-default, .bg-primary .link-default, .bg-primary-darker .link-default {

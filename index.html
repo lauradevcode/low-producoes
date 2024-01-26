@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Low produções de publicidade">
   <title>Low e Produções</title>
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css" />
@@ -28,7 +29,7 @@
     <div class="container-fluid py-2">
       <!-- Logo -->
       <a class="navbar-brand" href="#">
-        <img src="./midias-site/logo.svg" alt="Logo da Empresa" class="img-fluid mx-2" style="max-width: 120px" />
+        <img src="./midias-site/logo.svg" alt="Logo-da-Empresa" class="img-fluid mx-2" style="max-width: 120px" />
       </a>
 
       <!-- Botão de hamburguer para mobile -->
@@ -37,26 +38,27 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <!-- Lista de links -->
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <!-- menu li -->
+      <div class="navbar-collapse collapse show" id="navbarNavDropdown">
         <ul class="navbar-nav ml-auto" style="gap: 1rem">
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="#">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pages/">Sobre</a>
+            <a class="nav-link" href="#sobre">Sobre</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pages/">Clientes</a>
+            <a class="nav-link" href="#clientes">Clientes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pages/">Galeria</a>
+            <a class="nav-link" href="#galeria">Galeria</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pages/">Contato</a>
+            <a class="nav-link" href="#contatos">Contato</a>
           </li>
         </ul>
       </div>
+
     </div>
   </nav>
 
@@ -89,7 +91,9 @@
         tabindex="-1" autoplay=""
         src="https://video.wixstatic.com/video/8c0055_996ed4cf181c4ff198b19b635677bca7/1080p/mp4/file.mp4"></video>
     </wix-video>
-    <a href="https://wa.me/5561999740077" target="_blank" class="whatsapp-btn" aria-label="Whats"></a>
+    <!-- whatsapp icon -->
+    <a href="https://wa.me/5561999740077" target="_blank" class="whatsapp-btn" aria-label="Whats" id="whatsappBtn"></a>
+
   </section>
 
 
@@ -98,7 +102,7 @@
     style="background-color: #000000">
     <div class="imagem-secao2 p-2 mt-4 mt-sm-0">
       <img src="midias-site/MENU-INÍCIO/PÁGINA 2/foto fundo 1.png" width="100%" class="wow slideInLeft"
-        data-wow-duration="2s" />
+        data-wow-duration="2s" alt="foto-fundo"/>
     </div>
 
     <div class="texto-secao2 d-flex flex-column mx-5">
@@ -130,7 +134,7 @@
   <div class="d-flex flex-column align-items-center justify-content-center"
     style="background-color: #181717; text-align: center">
     <div class="p-2">
-      <h3 class="wow slideInLeft fw-light mb-0 mb-sm-5" data-wow-duration="2s">
+      <h3 class="wow slideInLeft fw-light mb-0 mb-sm-5 mt-4" data-wow-duration="2s" style="color: white;">
         Somos gratos por nossa trajetória até aqui
       </h3>
     </div>
@@ -178,12 +182,13 @@
 
   <!-- Sobre -->
   <div class="d-flex flex-column px-3 px-md-5 py-5"
-    style="background-color: #181717; text-align: center; margin-top: 5rem">
+    style="background-color: #181717; text-align: center; margin-top: 5rem" id="sobre">
     <div class="row d-flex flex-column flex-md-row mt-5 p-4 rounded-2" style="border: 1px solid #303030">
 
       <div class="p-2 col-md-6 align-items-center gap-1 img1 p-6">
 
-        <h1 class="titulo-h2 col-md-8 fs-1 txt2 text-secondary mb-4 mt-4" style="margin: 0 auto;">SOMOS <br><strong>L O W E</strong></h1>
+        <h1 class="titulo-h2 col-md-8 fs-1 txt2 text-secondary mb-4 mt-4" style="margin: 0 auto;">SOMOS <br><strong>L O
+            W E</strong></h1>
 
         <p class="txt col-md-10" style="margin: 0 auto;">
           Atuamos no mercado desde 2015. Especialistas em prestação de
@@ -197,9 +202,9 @@
       <div class="col-md-6 d-flex flex-wrap">
 
         <div class="card m-md-4 col-md-5">
-          <img src="../midias-site/MENU-SOBRE/8-1.png" class="card-img-top" />
+          <img src="../midias-site/MENU-SOBRE/8-1.png" class="card-img-top" alt="icon-paines" />
           <div class="card-body bg-dark-gray">
-            <h5 class="card-title" style="color: #889CE7;">Painéis de Led</h5>
+            <p class="card-title" style="color: #889CE7;">Painéis de Led</p>
             <p class="card-text">
               Alta resolução, p2 e p3, tecnologia e personalização.
             </p>
@@ -207,9 +212,9 @@
         </div>
 
         <div class="card m-md-4 col-md-5">
-          <img src="../midias-site/MENU-SOBRE/9-1.png" class="card-img-top" />
+          <img src="../midias-site/MENU-SOBRE/9-1.png" class="card-img-top" alt="icon-captacao" />
           <div class="card-body bg-dark-gray">
-            <h5 class="card-title" style="color: #889CE7;">Captação e transmissão</h5>
+            <p class="card-title" style="color: #889CE7;">Captação e transmissão</p>
             <p class="card-text">
               Serviço de Streaming completo para transmitir seu evento híbrido ou online.
             </p>
@@ -219,9 +224,9 @@
 
 
         <div class="card m-md-4 col-md-5">
-          <img src="../midias-site/MENU-SOBRE/11-1.png" class="card-img-top" alt="..." />
+          <img src="../midias-site/MENU-SOBRE/11-1.png" class="card-img-top" alt="icon-iluminacao" />
           <div class="card-body bg-dark-gray">
-            <h5 class="card-title" style="color: #889CE7;">Iluminação e Sonorização</h5>
+            <p class="card-title" style="color: #889CE7;">Iluminação e Sonorização</p>
             <p class="card-text">
               Dispomos dos melhores equipamentos de sonorização e iluminação para seu evento.
             </p>
@@ -229,9 +234,9 @@
         </div>
 
         <div class="card m-md-4 col-md-5">
-          <img src="../midias-site/MENU-SOBRE/10-1.png" class="card-img-top" alt="..." />
+          <img src="../midias-site/MENU-SOBRE/10-1.png" class="card-img-top" alt="atendimento-cliente" />
           <div class="card-body bg-dark-gray">
-            <h5 class="card-title" style="color: #889CE7;">Atendimento ao cliente personalizado</h5>
+            <p class="card-title" style="color: #889CE7;">Atendimento ao cliente personalizado</p>
             <p class="card-text">
               Nosso principal pilar é proporcionar a melhor experiência desde
               o primeiro contato com nosso cliente.
@@ -244,26 +249,26 @@
   </div>
 
   <!-- Nossos clientes-->
-  <div class="flexbox-clientes container">
+  <div class="flexbox-clientes container"  id="clientes">
     <div class="quadrado-principal">
       <div class="item-clientes">
-        <h3 style="color: white" class="titulo-nossosclientes p-2">
+        <p style="color: white" class="titulo-nossosclientes p-2">
           Alguns de nossos
           <span style="color: #810cd2">CLIENTES</span>
-        </h3>
+        </p>
       </div>
       <!-- quadrado 1-->
       <div class="item-clientes">
-        <img src="../midias-site/MENU-CLIENTES/19.png" class="imagens-clientes" />
+        <img src="../midias-site/MENU-CLIENTES/19.png" class="imagens-clientes"  alt="clientes-19"/>
       </div>
       <div class="item-clientes">
-        <img src="../midias-site/MENU-CLIENTES/20.png" class="imagens-clientes" />
+        <img src="../midias-site/MENU-CLIENTES/20.png" class="imagens-clientes"  alt="clientes-20"/>
       </div>
       <div class="item-clientes">
-        <img src="../midias-site/MENU-CLIENTES/21.png" class="imagens-clientes" />
+        <img src="../midias-site/MENU-CLIENTES/21.png" class="imagens-clientes"  alt="clientes-21"/>
       </div>
       <div class="item-clientes">
-        <img src="../midias-site/MENU-CLIENTES/22.png" class="imagens-clientes" />
+        <img src="../midias-site/MENU-CLIENTES/22.png" class="imagens-clientes"  alt="clientes-22"/>
       </div>
     </div>
   </div>
@@ -272,16 +277,16 @@
   <div class="flexbox-clientes container">
     <div class="quadrado-principal">
       <div class="item-clientes">
-        <img src="../midias-site/MENU-CLIENTES/23.png" class="imagens-clientes" />
+        <img src="../midias-site/MENU-CLIENTES/23.png" class="imagens-clientes" alt="clientes-23"/>
       </div>
       <div class="item-clientes">
-        <img src="../midias-site/MENU-CLIENTES/24.png" class="imagens-clientes" />
+        <img src="../midias-site/MENU-CLIENTES/24.png" class="imagens-clientes" alt="clientes-24" />
       </div>
       <div class="item-clientes">
-        <img src="../midias-site/MENU-CLIENTES/25.png" class="imagens-clientes" />
+        <img src="../midias-site/MENU-CLIENTES/25.png" class="imagens-clientes" alt="clientes-25" />
       </div>
       <div class="item-clientes">
-        <img src="../midias-site/MENU-CLIENTES/26.png" class="imagens-clientes" />
+        <img src="../midias-site/MENU-CLIENTES/26.png" class="imagens-clientes" alt="clientes-26" />
       </div>
     </div>
   </div>
@@ -290,16 +295,16 @@
   <div class="flexbox-clientes container">
     <div class="quadrado-principal">
       <div class="item-clientes">
-        <img src="../midias-site/MENU-CLIENTES/27.png" class="imagens-clientes" />
+        <img src="../midias-site/MENU-CLIENTES/27.png" class="imagens-clientes" alt="clientes-27" />
       </div>
       <div class="item-clientes">
-        <img src="../midias-site/MENU-CLIENTES/28.png" class="imagens-clientes" />
+        <img src="../midias-site/MENU-CLIENTES/28.png" class="imagens-clientes" alt="clientes-28" />
       </div>
       <div class="item-clientes">
-        <img src="../midias-site/MENU-CLIENTES/29.png" class="imagens-clientes" />
+        <img src="../midias-site/MENU-CLIENTES/29.png" class="imagens-clientes" alt="clientes-29" />
       </div>
       <div class="item-clientes">
-        <img src="../midias-site/MENU-CLIENTES/30.png" class="imagens-clientes" />
+        <img src="../midias-site/MENU-CLIENTES/30.png" class="imagens-clientes" alt="clientes-30" />
       </div>
     </div>
   </div>
@@ -308,19 +313,19 @@
   <div class="flexbox-clientes container">
     <div class="quadrado-principal">
       <div class="item-clientes">
-        <img src="../midias-site/MENU-CLIENTES/31.png" class="imagens-clientes" />
+        <img src="../midias-site/MENU-CLIENTES/31.png" class="imagens-clientes" alt="clientes-31" />
       </div>
       <div class="item-clientes">
-        <img src="../midias-site/MENU-CLIENTES/32.png" class="imagens-clientes" />
+        <img src="../midias-site/MENU-CLIENTES/32.png" class="imagens-clientes" alt="clientes-32" />
       </div>
       <div class="item-clientes">
-        <img src="../midias-site/MENU-CLIENTES/33.png" class="imagens-clientes" />
+        <img src="../midias-site/MENU-CLIENTES/33.png" class="imagens-clientes" alt="clientes-33" />
       </div>
     </div>
   </div>
 
   <!-- Galeria -->
-  <div class="d-flex flex-column py-5" style="background-color: #181717; text-align: center;">
+  <div class="d-flex flex-column py-5" style="background-color: #181717; text-align: center;" id="galeria">
     <!-- video e texto-->
     <div class="d-flex flex-column flex-lg-row gap-3 py-4 px-2 px-md-5">
       <div class="embed-responsive embed-responsive-16by9">
@@ -351,7 +356,7 @@
       <h2 class="title" style="color: white;margin-top: 4%;">Alguns de nossos eventos</h2>
 
       <div class="carousel-container">
-        <img src="/midias-site//MENU-GALERIA/seta.png" class="btn-voltar" alt="" />
+        <img src="/midias-site//MENU-GALERIA/seta.png" class="btn-voltar" alt="botao-voltar" />
 
         <div class="carousel">
           <div class="item">
@@ -520,58 +525,68 @@
           </div>
         </div>
 
-        <img src="/midias-site//MENU-GALERIA/seta.png" class="btn-proximo" alt="" />
+        <img src="/midias-site//MENU-GALERIA/seta.png" class="btn-proximo" alt="icon-seta" />
       </div>
+
     </div>
   </div>
 
   <!-- Formulario -->
-  <div class="d-flex flex-column w-100" style="background-color: #181717; text-align: center; color: aliceblue">
+  <div class="d-flex flex-column w-100" style="background-color: #181717; text-align: center; color: aliceblue"  id="contatos">
     <div class="talking-about-us">
 
       <div class="background-talking py-1">
         <h3 class="title-talking-about-us px-5" style="color: white;margin-top: 1%;text-align:center;">Fale conosco</h3>
 
         <div class="topo-form d-flex flex-column flex-md-row gap-3 gap-md-5 px-4 px-md-5 justify-content-center">
-          <div class="item-topoform" style="width: 30%;">
-            <h6><strong>Telefone</strong></h6>
-            <small class="mr-3 d-block">(61) 99974-0077</small>
-          </div>
 
-          <div class="item-topoform" style="width: 30%;">
-            <h6><strong>Email</strong></h6>
-            <small class="mr-3 d-block">atendimento@loweproducoes.com</small>
+          <div class="item-topoform d-flex justify-content-center mb-3" style="width: 100%;">
+            <div class="text-center">
+              <p><strong style="color: #889CE7!important;">Telefone</strong></p>
+              <small class="mr-3 d-block">(61) 99974-0077</small>
+            </div>
           </div>
-
-          <div class="item-topoform" style="width: 30%;">
-            <h6><strong>Redes sociais</strong></h6>
-            <small class="mr-3 d-block">
-              <img src="midias-site/icon/wpp.webp" style="margin-right: 10px;"> (61) 99974-0077 <br />
-              <img src="midias-site/icon/insta.webp"> @lowerproducoes
-            </small>
+          
+          <div class="item-topoform d-flex justify-content-center mb-3" style="width: 100%;">
+            <div class="text-center">
+              <p><strong style="color: #889CE7!important;">Email</strong></p>
+              <small class="mr-3 d-block">atendimento@loweproducoes.com</small>
+            </div>
           </div>
+          
+          <div class="item-topoform d-flex justify-content-center mb-3" style="width: 100%;">
+            <div class="text-center">
+              <p><strong style="color: #889CE7!important;">Redes sociais</strong></p>
+              <small class="mr-3 d-block">
+                <img src="midias-site/icon/wpp.webp" alt="icon-wpp" style="margin-right: 10px;"> (61) 99974-0077 <br />
+                <img src="midias-site/icon/insta.webp" alt="icon-insta-gram"> @lowerproducoes
+              </small>
+            </div>
+          </div>
+          
+          
         </div>
 
         <div class="formulario pb-5 px-4 px-md-5">
           <div class="d-flex flex-wrap flex-md-nowrap gap-3 w-100">
             <div class="d-flex flex-column gap-1 align-items-start w-100 mb-3">
-              <label for="name">Nome</label>
+              <label for="name" class="label-form">Nome</label>
               <input class="rounded-1 flex-grow-1" type="text" id="name" name="name" />
             </div>
 
             <div class="d-flex flex-column gap-1 align-items-start w-100 mb-3">
-              <label for="nickName">Sobrenome</label>
+              <label for="nickName" class="label-form">Sobrenome</label>
               <input class="rounded-1 flex-grow-1 " type="text" id="nickName" name="nickName" />
             </div>
 
             <div class="d-flex flex-column gap-1 align-items-start w-100 mb-3">
-              <label for="email">Email*</label>
+              <label for="email" class="label-form">Email*</label>
               <input class="rounded-1 flex-grow-1 " type="email" id="email" name="email" />
             </div>
           </div>
 
           <div class="d-flex flex-column gap-1 align-items-start mb-3">
-            <label for="mensagem">Mensagem</label>
+            <label for="mensagem" class="label-form">Mensagem</label>
             <textarea id="mensagem" name="mensagem" class="rounded-1 form-control" rows="8" cols="50"></textarea>
           </div>
 
@@ -589,32 +604,38 @@
     <div
       class="container-fluid justify-content-between flex-column flex-sm-row align-items-center justify-content-center"
       style="background-color: #181717">
+
       <div class="rodap1 d-flex flex-column align-items-center align-items-sm-start" style="color: rgb(138, 138, 138)">
+        
         <div class="p-2 d-flex d-sm-block justify-content-center">
-          <img src="midias-site/CABEÇALHO-RODAPÉ/LOGO LOWE.png" width="40%" />
+          <img src="midias-site/CABEÇALHO-RODAPÉ/LOGO LOWE.png" alt="icon-logo-low" width="40%" />
         </div>
+
         <div class="p-2">
-          <span>(61) 99974-0077 - Lion Lowe</span>
+          <span><a href="https://wa.me/5561999740077" target="_blank" style="color: rgb(179, 179, 179)">(61) 99974-0077</a> - Lion Lowe</span>
         </div>
+
         <div class="p-2">
-          <span>atendimento@loweproducoes.com</span>
+          <span><a href="mailto:atendimento@loweproducoes.com"  target="_blank" style="color: rgb(179, 179, 179)">atendimento@loweproducoes.com</a></span>
         </div>
+
         <div class="p-2">Distrito Federal</div>
+
       </div>
 
       <div class="rodap2 d-flex flex-column" style="color: rgb(138, 138, 138)">
         <div class="p-2">
-          <span> Redes sociais:</span>
+          <span class="rede-social" style="color: #889CE7!important;"> Redes sociais:</span>
         </div>
         <br />
         <div class="p-2" style="width: 180px">
-          <img src="midias-site/icon/wpp.webp" />
+          <img src="midias-site/icon/wpp.webp" alt="icon-whatsapp" />
           <span><a href="https://wa.me/5561999740077
-            (61) 99974-0077" style="color: rgb(179, 179, 179)">(61) 99974-0077</a></span>
+            (61) 99974-0077"  target="_blank" style="color: rgb(179, 179, 179)">(61) 99974-0077</a></span>
         </div>
         <div class="p-2" style="width: 180px">
-          <img src="midias-site/icon/insta.webp" />
-          <span><a href=" https://www.instagram.com/loweproducoes/"
+          <img src="midias-site/icon/insta.webp" alt="icon-insta"/>
+          <span><a href=" https://www.instagram.com/loweproducoes/" target="_blank" 
               style="color: rgb(179, 179, 179)">@loweproducoes</a></span>
         </div>
       </div>
@@ -636,6 +657,45 @@
   <script src="bootstrap-5.2.3/js/core.min.js"></script>
   <script src="bootstrap-5.2.3/js/script.js"></script>
 
+ <!-- whatsapp btn -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+    var whatsappBtn = document.getElementById("whatsappBtn");
+
+    window.addEventListener("scroll", function() {
+        if (window.scrollY > 100) { // Altere o valor conforme necessário para determinar quando o botão deve aparecer
+            whatsappBtn.classList.add("visible");
+        } else {
+            whatsappBtn.classList.remove("visible");
+        }
+    });
+});
+
+  </script>
+  <!-- efeito do clique no item do menu descer a pagina -->
+  <script>
+  document.addEventListener("DOMContentLoaded", function() {
+  var links = document.querySelectorAll('.navbar-nav a.nav-link');
+
+  links.forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+
+      var targetId = this.getAttribute('href').substring(1);
+      var targetElement = document.getElementById(targetId);
+
+      if (targetElement) {
+        window.scrollTo({
+          top: targetElement.offsetTop,
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+});
+
+  </script>
+ <!-- efeito do menu no modo mobile -->
   <script>
     $(document).ready(function () {
       function isMobile() {

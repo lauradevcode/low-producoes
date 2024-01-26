@@ -6,6 +6,13 @@
     padding: 5rem;
   }
 
+  .label-form {
+    color: #889CE7!important;
+  }
+  .rounded-1 {
+    border-color: #a3b4f1!important;
+  }
+
   @media (max-width: 767.98px) {
     .talking-about-us {
       padding: 2rem;
